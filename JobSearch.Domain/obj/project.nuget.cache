@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0d4XrXD8pRLtw7+rodHDX0yYwMEvbSASIayMbRlwHGF4kRfnmloAFzEHFCDxBVZMhsEiwF2N2bcP/k5UmoDYlw==",
+  "success": true,
+  "projectFilePath": "C:\\Projs\\JobSearch2\\JobSearch.Domain\\JobSearch.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lázaro\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

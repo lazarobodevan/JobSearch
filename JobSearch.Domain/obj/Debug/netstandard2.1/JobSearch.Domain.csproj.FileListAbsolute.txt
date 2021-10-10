@@ -1,0 +1,12 @@
+C:\Projs\JobSearch2\JobSearch.Domain\bin\Debug\netstandard2.1\JobSearch.Domain.deps.json
+C:\Projs\JobSearch2\JobSearch.Domain\bin\Debug\netstandard2.1\JobSearch.Domain.dll
+C:\Projs\JobSearch2\JobSearch.Domain\bin\Debug\netstandard2.1\JobSearch.Domain.pdb
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.AssemblyInfoInputs.cache
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.AssemblyInfo.cs
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.dll
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.pdb
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.csproj.AssemblyReference.cache
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.Utility.Language.Fields.resources
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.Utility.Language.Messages.resources
+C:\Projs\JobSearch2\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.csproj.GenerateResource.cache

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JobSearch.APP.Views.Visualizer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Clicked="GoBack" Style="{StaticResource BackButton}"/>
+                <Label Text="JobSearch" Style="{StaticResource Title}" Grid.Column="1"/>
+            </Grid>
+
+            <BoxView Color="#D7CCFF" HeightRequest="1"/>
+
+            <ScrollView>
+                <StackLayout>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label Text="Digital Ocean" Style="{StaticResource CompanyCityStateLabel}" Grid.Row="0"/>
+                        <Label Text="Back-End Developer" Grid.Row="1" Style="{StaticResource JobTitleLabel}"/>
+                        <Label Text="São Paulo/SP" Grid.Row="2" Style="{StaticResource CompanyCityStateLabel}"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="7.0-11K " Style="{StaticResource MoneyLabel}"/>
+                                    <Span Text="BRL" Style="{StaticResource CurrencyLabel}"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label Text="CLT" Style="{StaticResource JobTitleLabel}" Grid.Row="4"/>
+                        <Label Text="Tags" Style="{StaticResource JobTitleLabel}" Grid.Row="5"/>
+
+                        <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="End" Style="{StaticResource JobTitleLabel}">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Pub. "/>
+                                    <Span Text="17/09/2021"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource IdLabel}">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="id. "/>
+                                    <Span Text="23145"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                    </Grid>
+
+
+                    <Label Text="Interessados, enviar E-mail para:" Style="{StaticResource JobTitleLabel}"/>
+                    <Label Text="job@levty.com" Style="{StaticResource CompanyCityStateLabel}"/>
+
+                    <BoxView Color="#F3F5F7" HeightRequest="1"/>
+
+                    <Label Text="Descrição da empresa" Style="{StaticResource MoneyLabel}"/>
+
+                    <Label Text="Levty é uma empresa de tecnologia voltada para desenvolvimento de software para empresas em geral, como mineradoras, prestadoras de serviços, fábricas de cimento, e venda de energia." Style="{StaticResource JobTitleLabel}"/>
+
+                    <Label Text="Descrição do trabalho" Style="{StaticResource MoneyLabel}"/>
+                    <Label Text="Horário flexivel de 4 ou 6h diárias. Você trabalhará com JavaScript e ElasticSearch dentro da plataforma SydleOne. Nesta plataforma, você irá utilizar de BPNM para modelagem de processos." Style="{StaticResource JobTitleLabel}"/>
+
+                    <Label Text="Benefícios" Style="{StaticResource MoneyLabel}"/>
+                    <Label Text="R$300,00 ou R$400 em VA ou VR, VT, Plano de Saúde e Trabalhar aqui!" Style="{StaticResource JobTitleLabel}"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
